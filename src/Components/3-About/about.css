@@ -1,0 +1,31 @@
+section.about {
+  height: 60vh;
+  justify-content: space-evenly;
+}
+
+section.about h1 {
+  font-size: 3.5rem;
+  padding-bottom: 3.8em;
+}
+
+section.about p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--font);
+}
+
+section.about div {
+  width: 70vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+section.about button {
+  background-color: var(--bg);
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  margin-top: 35px;
+  cursor: pointer;
+}

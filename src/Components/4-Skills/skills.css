@@ -1,0 +1,65 @@
+section.skills {
+  flex-direction: column;
+  background-color: var(--bg);
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+section.skills .content {
+  width: 75vw;
+  flex-direction: column;
+  padding: 35px;
+  text-align: center;
+}
+
+section.skills .content h1 {
+  font-size: 3rem;
+}
+
+section.skills article {
+  width: 75vw;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+section.skills article ul {
+  flex-direction: column;
+  width: 25vw;
+  height: 50vh;
+  gap: 25px;
+  padding: 15px;
+  font-weight: 700;
+}
+section.skills article ul li:first-child {
+  border-bottom: 2px solid #fff;
+  font-size: 1.3rem;
+  width: 10vw;
+  text-align: center;
+  padding: 15px;
+}
+
+section.skills article .tech {
+  width: 35vw;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px;
+}
+
+section.skills article label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+section.skills article label span {
+  background-color: #959188;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  width: 8vw;
+}
+section.skills article label progress {
+  background-color: white;
+  height: 5vh;
+  width: 20vw;
+}

@@ -1,0 +1,51 @@
+header.flex {
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 2.4rem;
+  margin-top: 1.2rem;
+}
+
+header.flex nav {
+  width: 50%;
+  flex-direction: row;
+  padding: 0.77rem 1.6rem;
+}
+header.flex nav a {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+header.flex nav a:hover {
+  opacity: 1;
+  font-size: 1.25rem;
+}
+
+header ul.flex {
+  justify-content: space-around;
+}
+header .logo {
+  font-size: 5rem;
+  opacity: 0.9;
+  color: var(--blue);
+}
+
+header .logo:hover {
+  font-size: 5.1rem;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+header .icons {
+  gap: 5px;
+}
+
+header .icons a {
+  font-size: 1.5rem;
+  padding-left: 15px;
+  opacity: 0.9;
+  color: var(--blue);
+}
+header .icons a:hover {
+  font-size: 1.8rem;
+  opacity: 1;
+}

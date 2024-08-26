@@ -1,0 +1,32 @@
+section.Hero {
+  background-image: url(heroImage.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  align-items: center;
+  height: 80vh;
+}
+section.Hero div {
+  margin: 50px;
+  gap: 25px;
+  flex-direction: column;
+}
+section.Hero h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+section.Hero p {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+section.Hero div button {
+  margin-top: 45px;
+  font-size: 1.2rem;
+  background-color: #0f1418;
+  padding: 10px 25px;
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+}
